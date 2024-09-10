@@ -26,13 +26,13 @@ public class Bicicleta implements Transporte{
     }
 
     @Override
-    public void arrancar() {
-        System.out.println("Arrancando bicicleta");
+    public String arrancar() {
+        return "Arranca";
     }
 
     @Override
-    public void detener() {
-        System.out.println("Detenendo bicicleta");
+    public String detener() {
+        return "Frena";
     }
 
     @Override

@@ -1,7 +1,7 @@
 package model;
 
 public interface Transporte {
-    void arrancar();
-    void detener();
+    String arrancar();
+    String detener();
     int obtenerCapacidad();
 }

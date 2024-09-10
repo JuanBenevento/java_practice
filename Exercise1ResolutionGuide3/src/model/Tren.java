@@ -2,13 +2,13 @@ package model;
 
 public class Tren implements Transporte{
     @Override
-    public void arrancar() {
-
+    public String arrancar() {
+        return "Arrranca";
     }
 
     @Override
-    public void detener() {
-
+    public String detener() {
+        return "Frena";
     }
 
     @Override

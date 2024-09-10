@@ -36,13 +36,13 @@ public class Tranvia implements Transporte{
     }
 
     @Override
-    public void arrancar() {
-        System.out.println("Arrancando...");
+    public String arrancar() {
+        return "Arranca";
     }
 
     @Override
-    public void detener() {
-        System.out.println("Detenendo...");
+    public String detener() {
+        return "Frena";
     }
 
     @Override
